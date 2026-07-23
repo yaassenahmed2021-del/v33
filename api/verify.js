@@ -1,7 +1,7 @@
 import { kv } from '@vercel/kv';
 
 // قائمة المفاتيح المسموح بها فقط (يفضّل نقلها لاحقًا لمتغير بيئة بدل كتابتها هنا)
-const VALID_KEYS = (process.env.VALID_KEYS || 'hfjdjhiopfhjioepr')
+const VALID_KEYS = (process.env.VALID_KEYS || 'ibrahim2017')
     .split(',')
     .map(k => k.trim())
     .filter(Boolean);
